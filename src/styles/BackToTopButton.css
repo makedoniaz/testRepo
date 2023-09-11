@@ -1,0 +1,18 @@
+.BackToTopButton button {
+    display:none;
+    font-size:20px;
+    border-radius:30px;
+    font-weight: 900;
+    background-color: #1c1c1c;
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    padding:8px 17px;
+    box-shadow: 0px 8px 16px 3px rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 600px) {
+    .BackToTopButton button {
+        display:block;
+    }
+}

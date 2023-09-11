@@ -1,0 +1,14 @@
+.Footer {
+    text-align: center;
+    background-color: #333;
+    margin-top: auto; 
+    height: 100px;
+}
+
+.copyright-msg {
+    margin:20px 35px;
+    float:left;
+    font-weight: 300;
+    font-size:12px;
+    color:rgb(243, 243, 243);
+}

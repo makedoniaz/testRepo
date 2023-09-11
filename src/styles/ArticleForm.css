@@ -1,0 +1,29 @@
+.ArticleForm {
+    width:50%;
+    margin:auto;
+    background-color: #333;
+    padding:40px 25px;
+    border-radius:10px;
+}
+
+.ArticleForm input[type=text], textarea {
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    resize: vertical;
+    font-size:14px;
+}
+  
+.ArticleForm label {
+    font-size:16px;
+    font-weight:500;
+    margin-bottom: 5px;
+    color:white;
+    display: inline-block;
+}
+
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
