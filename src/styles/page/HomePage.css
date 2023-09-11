@@ -1,0 +1,26 @@
+.Homepage-content {
+    width: 70%;
+    margin:30px auto;
+}
+
+.main-news {
+    font-size:14px;
+    width:70%;
+}
+
+.aside-news {
+    font-size:12px;
+    width:25%;
+    float:right;
+}
+
+@media screen and (max-width: 800px) {
+    .main-news {
+        font-size:12px;
+        width:100%;
+    }
+    .aside-news {
+        font-size:12px;
+        width:100%;
+    }
+}

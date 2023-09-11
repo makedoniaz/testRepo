@@ -1,0 +1,103 @@
+input, textarea {
+  box-sizing: border-box;
+}
+
+.error-msg {
+  float:left;
+  color:#f44336;
+  font-size:14px;
+}
+
+.msg {
+  font-size:14px;
+  margin:8px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.btn {
+  user-select: none;
+  cursor:pointer;
+  color: white;
+  background-color: inherit;
+  text-align: center;
+  transition: background-color .3s;
+  text-decoration: none;
+  border:none;
+}
+
+.func-btn {
+  border-radius:5px;
+  background-color: #bc4123;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.data-input {
+  width:100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 13px 10px;
+  margin-top:5px;
+  margin-bottom:10px
+}
+
+.default-container {
+    background-color: #fafafa;
+    border-radius:15px;
+    padding:10px 20px;
+}
+
+.m-80 {
+    width:80%;
+    margin:30px auto;
+}
+
+.right {
+  float:right;
+}
+
+.left {
+  float:left;
+}
+
+.hidden {
+  display:none;
+}
+
+.center {
+  text-align: center;
+}
+
+.hvr-gray:hover {
+  background-color: #555;
+}
+
+.hvr-red:hover {
+  background-color:#a4391e
+}
+
+.actv.active {
+  background-color: #bc4123;
+}
+
+.bold {
+  font-weight:700;
+}
+
+.max-width {
+  width:100%;
+}
+
+.block {
+  display:block;
+}
+
+.dark-gray {
+  background-color: #333;
+}
